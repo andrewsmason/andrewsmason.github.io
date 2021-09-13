@@ -1,0 +1,213 @@
+body {
+    background: #2632D4;;
+}
+
+/* mobile */
+
+@media screen and (max-width: 480px) {
+    .title {
+        position: absolute;
+        height: 63px;
+        left: 20px;
+        top: 45px;
+        
+        font-family: Futura;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px;
+        
+        color: #FFFFFF;
+    }
+    
+    .subtitle {
+        position: absolute;
+        height: 33px;
+        left: 20px;
+        top: 119px;
+        
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        
+        color: #FFFFFF;          
+    }
+    
+    .palla {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 193px;        
+    }
+    
+    .clover {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 440px;        
+    }
+    
+    .pollie {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 687px;
+    }
+    
+    .chronicle {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 934px; 
+    }
+    
+    .bree {
+        position: absolute;
+        width: 284px;
+        height: 213.14px;
+        left: 39px;
+        top: 1180px;
+    }
+    
+    .awesomic {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 1427px;
+    }
+    
+    .contact {
+        position: absolute;
+        height: 63px;
+        left: 95px;
+        top: 1685px;   
+        padding-bottom: 150px;     
+    }
+}
+
+/* desktop */
+
+@media screen and (min-width: 481px) {
+    .title {
+        position: absolute;
+        width: 985px;
+        height: 63px;
+        left: 50px;
+        top: 35px;
+        
+        font-family: Futura;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 51px;
+        
+        color: #FFFFFF;
+    }
+
+    .subtitle {
+        position: absolute;
+        width: 985px;
+        height: 63px;
+        left: 50px;
+        top: 109px;
+        
+        font-family: Futura;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        
+        color: #FFFFFF;
+    }
+
+    .palla {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 112px;
+        top: 193px;
+    }
+
+    .palla:hover {
+        filter: brightness(110%);
+    }
+
+    .clover {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 498px;
+        top: 193px;
+    }
+
+    .clover:hover {
+        filter: brightness(110%);
+    }
+
+    .pollie {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 884px;
+        top: 193px;
+    }
+
+    .pollie:hover {
+        filter: brightness(110%);
+    }
+
+    .chronicle {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 112px;
+        top: 477px;
+    }
+
+    .chronicle:hover {
+        filter: brightness(110%);
+    }
+
+    .bree {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 498px;
+        top: 477px;
+    }
+
+    .bree:hover {
+        filter: brightness(110%);
+    }
+
+    .awesomic {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 884px;
+        top: 477px;
+    }
+
+    .awesomic:hover {
+        filter: brightness(110%);
+    }
+
+    .contact {
+        position: absolute;
+        width: 152px;
+        height: 63px;
+        left: 598px;
+        top: 781px;
+    }
+
+    .contact:hover {
+        opacity: .75;
+    }
+}
