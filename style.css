@@ -205,10 +205,10 @@ body {
     
     .contact {
         position: absolute;
+        width: 152px;
         height: 63px;
-        left: 95px;
-        top: 1685px;   
-        padding-bottom: 150px;     
+        left: 341px;
+        top: 1067px; 
     }
 }
 
