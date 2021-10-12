@@ -6,7 +6,6 @@ body {
 
 .title {
     position: absolute;
-    width: 985px;
     height: 63px;
     left: 50px;
     top: 35px;
@@ -22,7 +21,6 @@ body {
 
 .subtitle {
     position: absolute;
-    width: 985px;
     height: 63px;
     left: 50px;
     top: 109px;
@@ -108,16 +106,37 @@ body {
     filter: brightness(110%);
 }
 
+.yummy {
+    position: absolute;
+    width: 349px;
+    height: 261px;
+    left: 112px;
+    top: 776px;    
+}
+
+.yummy:hover {
+    filter: brightness(110%);
+}
+
 .contact {
     position: absolute;
     width: 152px;
     height: 63px;
-    left: 598px;
-    top: 781px;
+    left: 900px;
+    top: 862px;    
 }
 
 .contact:hover {
     opacity: .75;
+}
+
+.arrow {
+    position: absolute;
+    width: 985.93px;
+    height: 477.56px;
+    left: 105px;
+    top: 755px;
+    z-index: -1;
 }
 
 /* tablet */
@@ -125,7 +144,6 @@ body {
 @media screen and (max-width: 835px) {
     .title {
         position: absolute;
-        width: 985px;
         height: 63px;
         left: 50px;
         top: 45px;
@@ -141,7 +159,6 @@ body {
     
     .subtitle {
         position: absolute;
-        width: 985px;
         height: 63px;
         left: 50px;
         top: 119px;
@@ -203,12 +220,24 @@ body {
         top: 785px;        
     }
     
+    .yummy {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 50px;
+        top: 1085px;       
+    }
+
     .contact {
         position: absolute;
         width: 152px;
         height: 63px;
         left: 341px;
-        top: 1097px; 
+        top: 1409px;        
+    }
+
+    .arrow {
+        display: none;
     }
 }
 
@@ -292,12 +321,24 @@ body {
         left: 39px;
         top: 1427px;
     }
+
+    .yummy {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 1676px;
+    }
     
     .contact {
         position: absolute;
+        width: 152px;
         height: 63px;
-        left: 95px;
-        top: 1685px;   
-        padding-bottom: 150px;     
+        left: 114px;
+        top: 1927px;        
+    }
+
+    .arrow {
+        display: none;
     }
 }
