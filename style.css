@@ -118,12 +118,24 @@ body {
     filter: brightness(110%);
 }
 
+.fireside {
+    position: absolute;
+    width: 349px;
+    height: 261px;
+    left: 498px;
+    top: 776px;    
+}
+
+.fireside:hover {
+    filter: brightness(110%);
+}
+
 .contact {
     position: absolute;
     width: 152px;
     height: 63px;
-    left: 900px;
-    top: 862px;    
+    left: 976px;
+    top: 880px;    
 }
 
 .contact:hover {
@@ -134,8 +146,9 @@ body {
     position: absolute;
     width: 985.93px;
     height: 477.56px;
-    left: 105px;
-    top: 755px;
+    left: 205px;
+    top: 800px;
+    transform: rotate(-5deg);
     z-index: -1;
 }
 
@@ -225,6 +238,14 @@ body {
         width: 349px;
         height: 261px;
         left: 50px;
+        top: 1085px;       
+    }
+
+    .fireside {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 438px;
         top: 1085px;       
     }
 
@@ -329,13 +350,21 @@ body {
         left: 39px;
         top: 1676px;
     }
+
+    .fireside {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 1923px;
+    }
     
     .contact {
         position: absolute;
         width: 152px;
         height: 63px;
         left: 114px;
-        top: 1927px;        
+        top: 2196px;        
     }
 
     .arrow {
