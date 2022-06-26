@@ -142,12 +142,36 @@ body {
     filter: brightness(110%);
 }
 
+.payo {
+    position: absolute;
+    width: 349px;
+    height: 261px;
+    left: 112px;
+    top: 1075px;    
+}
+
+.payo:hover {
+    filter: brightness(110%);
+}
+
+.kredi {
+    position: absolute;
+    width: 349px;
+    height: 261px;
+    left: 498px;
+    top: 1075px;    
+}
+
+.kredi:hover {
+    filter: brightness(110%);
+}
+
 .contact {
     position: absolute;
     width: 152px;
     height: 63px;
-    left: 594px;
-    top: 1100px;      
+    left: 974px;
+    top: 1175px;      
 }
 
 .contact:hover {
@@ -158,9 +182,9 @@ body {
     position: absolute;
     width: 985.93px;
     height: 477.56px;
-    left: -155px;
-    top: 1055px;
-    transform: rotate(-15deg);
+    left: 350px;
+    top: 1205px;
+    transform: rotate(-25deg);
     z-index: -1;
 }
 
@@ -269,12 +293,28 @@ body {
         top: 1383px;
     }
 
+    .payo {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 438px;
+        top: 1383px;
+    }
+
+    .kredi {
+        position: absolute;
+        width: 349px;
+        height: 261px;
+        left: 49px;
+        top: 1681px;
+    }
+
     .contact {
         position: absolute;
         width: 152px;
         height: 63px;
         left: 341px;
-        top: 1709px;        
+        top: 2027px;        
     }
 
     .arrow {
@@ -386,13 +426,29 @@ body {
         left: 39px;
         top: 2170px;
     }
+
+    .payo {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 2417px;
+    }
+
+    .kredi {
+        position: absolute;
+        width: 284px;
+        height: 213px;
+        left: 39px;
+        top: 2664px;
+    }
     
     .contact {
         position: absolute;
         width: 152px;
         height: 63px;
         left: 114px;
-        top: 2417px;    
+        top: 2966px;    
     }
 
     .arrow {
