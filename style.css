@@ -142,7 +142,7 @@ body {
     filter: brightness(110%);
 }
 
-.payo {
+.sigma {
     position: absolute;
     width: 349px;
     height: 261px;
@@ -150,7 +150,7 @@ body {
     top: 1075px;    
 }
 
-.payo:hover {
+.sigma:hover {
     filter: brightness(110%);
 }
 
@@ -293,7 +293,7 @@ body {
         top: 1383px;
     }
 
-    .payo {
+    .sigma {
         position: absolute;
         width: 349px;
         height: 261px;
@@ -427,7 +427,7 @@ body {
         top: 2170px;
     }
 
-    .payo {
+    .sigma {
         position: absolute;
         width: 284px;
         height: 213px;
